@@ -17,7 +17,7 @@ install:
     - "git clone --depth 1 git://github.com/astropy/ci-helpers.git"
     - "powershell ci-helpers/appveyor/install-miniconda.ps1"
     - "conda activate test"
-    - "conda update -c mark.harfouche libtiff"
+    - "conda update -y -c mark.harfouche libtiff"
 
 build: false  # Not a C# project, build stuff at the test step instead.
 
