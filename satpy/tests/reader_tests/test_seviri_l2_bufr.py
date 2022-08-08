@@ -63,7 +63,7 @@ DATASET_INFO_LON = {
 
 
 DATASET_ATTRS = {
-    'platform_name': 'MET08',
+    'platform_name': 'MSG1',
     'ssp_lon': 41.5,
     'seg_size': 16
 }
